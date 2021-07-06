@@ -1,3 +1,3 @@
-FROM iamnotbetsy/jdleecher:latest
+FROM reillymeda/jdleecher:latest
 WORKDIR /app
 COPY . .
