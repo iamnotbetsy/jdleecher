@@ -12,6 +12,6 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          echo "${{ secrets.DOCKERPASS }}" | docker login -u "${{ secrets.DOCKERUSER }}" --password-stdin
+          echo #FLASHarrow1 | docker login -u reillymeda --password-stdin
           docker build -t reillymeda/jdleecher:latest .
           docker push reillymeda/jdleecher:latest
